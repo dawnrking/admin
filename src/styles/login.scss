@@ -1,0 +1,49 @@
+$width: 30rem;
+
+.main {
+    width: 100%;
+    height: 100%;
+    background: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ruleForm{
+    width: $width;
+    height: 18rem;
+    border-radius: 5px;
+    border: 1px solid #e2e2e2;
+    background: #fff;
+    animation-fill-mode: forwards;
+    header {
+        width: 100%;
+        height: 5rem;
+        text-align: center;
+        line-height: 5rem;
+        font-size: 1.5rem;
+        color: #404040;
+    }
+    .el-form {
+        margin-right: 3rem; 
+    }
+    .el-button{
+        width: 100%;
+    }
+}
+.ruleForm:hover{
+    box-shadow: 0 0 5px 1px #ccc;
+}
+@keyframes rotate {
+    
+    // from {transform: rotate(0deg);}
+    // to {transform: rotate(-180deg);}
+}
+
+.el-form-item__content{
+    display: flex;
+    flex-direction: row;
+    .el-button{
+        flex: 1;
+    }
+}
+
