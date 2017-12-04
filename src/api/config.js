@@ -4,13 +4,8 @@ import Qs from 'qs'
 var def = axios.create({
     // 本地
     baseURL: 'http://farmingapi.dev/admin/',
-    // 测试服务器
-    // baseURL: 'http://farming.llf360.com/admin/',
-    // 正式服
-    // baseURL: 'http://www.shanxiwelfare.com/admin/',
     headers: {
         // 'X-Requested-With': 'XMLHttpRequest',
-        'Content-Type': 'application/x-www-form-urlencoded',
     },
 });
 // 登陆接口
